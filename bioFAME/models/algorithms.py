@@ -2,8 +2,8 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from bioFAME.models.transformer_utils import Transformer, FA_Transformer
-from bioFAME.models.revin import RevIN
+from .transformer_utils import Transformer, FA_Transformer
+from .revin import RevIN
 
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
